@@ -11,6 +11,7 @@ namespace Project1.Models.Local_DB
 
 
         public DbSet<Student> Students { get; set; }
+        public DbSet<Staff> Staffs { get; set; }
     }
 
 
