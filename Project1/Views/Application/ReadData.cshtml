@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Project1.Models.Student>
+
+@{
+    ViewData["Title"] = "Profile Details";
+}
+
+    <head>
+        <link href="~/css/ReadData.css" rel="stylesheet" />
+    </head>
+
+<h2 class="title">Profile Details</h2>
+
+<form asp-controller="Application" asp-action="Searchbar" >
+<div class="search-container">
+    <input type="text" name="search"
+           placeholder="Search by name, department, college..."
+            />
+</div>
+
+</form>
+
+
+
+<table id="studentTable">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Department</th>
+        <th>College</th>
+        <th>Mobile</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Modify</th>
+        <th>Delete</th>
+    </tr>
+
+   
+        @foreach(var data in Model)
+     {
+        <tr>
+            <td>@data.Id</td>
+            <td>@data.Name</td>
+            <td>@data.Age</td>
+            <td>@data.Department</td>
+            <td>@data.College</td>
+            <td>@data.Mobile</td>
+            <td>@data.Email</td>
+            <td>@data.Address</td>
+            <td class="ED"><a asp-controller="Application" asp-action="EditData" asp-route-id="@data.Id" >Edit</a></td>
+            <td class="ED"><a asp-controller="Application" asp-action="DeleteData" asp-route-id="@data.Id" onclick="return confirm('Are You Wants to Delete This')">Remove</a></td>
+        </tr>
+      }
+    
+
+</table>

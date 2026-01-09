@@ -1,0 +1,80 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f9;
+}
+
+.student-container {
+    width: 500px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.student-form .form-group {
+    margin-bottom: 15px;
+}
+
+.student-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #555;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+    .form-control:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+textarea.form-control {
+    resize: none;
+    height: 80px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-save {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+    .btn-save:hover {
+        background-color: #0056b3;
+    }
+
+.btn-reset {
+    background-color: #6c757d;
+    color: white;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+    .btn-reset:hover {
+        background-color: #545b62;
+    }

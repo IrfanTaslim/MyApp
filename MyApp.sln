@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1", "Project1\Project1.csproj", "{BFBD8843-DE2F-4662-BB88-04F799EDE7D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCrudApp", "..\..\..\Downloads\RedisCrudApp-main\RedisCrudApp-main\RedisCrudApp.csproj", "{F47EC5D9-2148-1955-5A47-FC585A40387B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFBD8843-DE2F-4662-BB88-04F799EDE7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBD8843-DE2F-4662-BB88-04F799EDE7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBD8843-DE2F-4662-BB88-04F799EDE7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBD8843-DE2F-4662-BB88-04F799EDE7D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47EC5D9-2148-1955-5A47-FC585A40387B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47EC5D9-2148-1955-5A47-FC585A40387B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47EC5D9-2148-1955-5A47-FC585A40387B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47EC5D9-2148-1955-5A47-FC585A40387B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D3550DE-1AF1-43CA-AADF-D53F428D10CE}
+	EndGlobalSection
+EndGlobal
